@@ -31,7 +31,7 @@ public class AppException extends Exception implements UncaughtExceptionHandler{
 	private final static boolean Debug = false;//是否保存错误日志
 	
 	/** 定义异常类型 */
-	public final static byte TYPE_NETWORK 	= 0x015;
+	public final static byte TYPE_NETWORK 	= 0x012;
 	public final static byte TYPE_SOCKET	= 0x02;
 	public final static byte TYPE_HTTP_CODE	= 0x03;
 	public final static byte TYPE_HTTP_ERROR= 0x02;
