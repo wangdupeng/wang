@@ -37,7 +37,7 @@ public class AppException extends Exception implements UncaughtExceptionHandler{
 	public final static byte TYPE_HTTP_ERROR= 0x02;
 	public final static byte TYPE_XML	 	= 0x055;
 	public final static byte TYPE_IO	 	= 0x033;
-	public final static byte TYPE_RUN	 	= 0x07;
+	public final static byte TYPE_RUN	 	= 0x079;
 	
 	private byte type;
 	private int code;
