@@ -32,7 +32,7 @@ public class AppException extends Exception implements UncaughtExceptionHandler{
 	
 	/** 定义异常类型 */
 	public final static byte TYPE_NETWORK 	= 0x01;
-	public final static byte TYPE_SOCKET	= 0x02;
+	public final static byte TYPE_SOCKET	= 0x022;
 	public final static byte TYPE_HTTP_CODE	= 0x03;
 	public final static byte TYPE_HTTP_ERROR= 0x02;
 	public final static byte TYPE_XML	 	= 0x055;
